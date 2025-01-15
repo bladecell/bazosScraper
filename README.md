@@ -30,15 +30,6 @@ docker run -p 5000:5000 bladecell/bazos-scraper-api
 pip install -r requirements.txt
 ```
 
-## Requirements
-
-All dependencies are listed in `requirements.txt`:
-```
-flask
-flask-cors
-# Additional dependencies from requirements.txt
-```
-
 ## Docker Support
 
 The project includes a Dockerfile for containerized deployment. You can build the image locally:
@@ -125,14 +116,3 @@ python app.py
 
 The server will start on `http://localhost:5000` by default.
 
-## Dependencies
-
-- Flask
-- Flask-CORS
-- BazosScraper (custom scraping module)
-- asyncio
-- Additional dependencies as specified in requirements.txt
-
-## Note
-
-This API requires the `BazosScraper` class implementation, which should be provided in a separate file named `BazosScraper.py`. Ensure the scraper class implements the required methods and properties referenced in the API code.
