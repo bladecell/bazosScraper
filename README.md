@@ -46,14 +46,8 @@ docker pull bladecell/bazos-scraper-api
 
 ## API Endpoints
 
-### 1. Synchronous Search
 ```
 GET /api/search
-```
-
-### 2. Asynchronous Search
-```
-GET /api/async_search
 ```
 
 Both endpoints accept the following query parameters:
