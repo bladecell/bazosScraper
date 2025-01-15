@@ -1,6 +1,6 @@
 # Bazos Scraper API
 
-A Flask-based REST API that provides endpoints for scraping listings from Bazos marketplace. The API supports both synchronous and asynchronous search operations with customizable search parameters.
+A Flask-based REST API that provides endpoints for scraping listings from Bazos marketplace. The API supports both synchronous and asynchronous search operations with customizable search parameters. Main purpose is to be used with [ChangeDetection](https://github.com/dgtlmoon/changedetection.io).
 
 ## Features
 
